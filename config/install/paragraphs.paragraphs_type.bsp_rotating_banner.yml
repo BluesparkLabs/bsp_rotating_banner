@@ -1,0 +1,6 @@
+langcode: en
+status: true
+dependencies: {  }
+id: bsp_rotating_banner
+label: 'BSP Rotating Banner'
+behavior_plugins: {  }

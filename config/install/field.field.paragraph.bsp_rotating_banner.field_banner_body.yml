@@ -1,0 +1,18 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_banner_body
+    - paragraphs.paragraphs_type.bsp_rotating_banner
+id: paragraph.bsp_rotating_banner.field_banner_body
+field_name: field_banner_body
+entity_type: paragraph
+bundle: bsp_rotating_banner
+label: Body
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

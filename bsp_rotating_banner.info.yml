@@ -1,0 +1,11 @@
+name: BSP Rotating Banner
+type: module
+description: BSP Rotating Banner
+core: 8.x
+package: BSP
+dependencies:
+  - paragraphs
+  - flexslider
+  - flexslider_views
+
+
