@@ -1,0 +1,13 @@
+langcode: en
+status: true
+dependencies: {  }
+name: rotating_banner
+label: 'Rotating Banner (1440 x 746)'
+effects:
+  e06033af-d6e1-4217-9201-7b2b8fbeb9ca:
+    uuid: e06033af-d6e1-4217-9201-7b2b8fbeb9ca
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 1440
+      height: 746
