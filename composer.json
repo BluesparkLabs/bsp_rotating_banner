@@ -1,5 +1,5 @@
 {
-  "name": "BluesparkLabs/bsp_rotating_banner",
+  "name": "bluesparklabs/bsp_rotating_banner",
   "description": "BSP module to generate a basic rotating banner.",
   "type": "drupal-module",
   "license": "GPL-2.0+",
@@ -8,27 +8,5 @@
     "drupal/flexslider": "2.0.0-beta1",
     "drupal/libraries": "3.x-dev",
     "woothemes/flexslider": "^2.6"
-  },
-  "extra": {
-    "installer-paths": {
-      "web/libraries/{$name}": [
-        "type:drupal-library"
-      ]
-    }
-  },
-  "repositories": [
-    {
-      "type": "package",
-      "package": {
-        "name": "woothemes/flexslider",
-        "version": "2.6.3",
-        "type": "drupal-library",
-        "source": {
-          "url": "https://github.com/woothemes/FlexSlider.git",
-          "type": "git",
-          "reference": "2.6.3"
-        }
-      }
-    }
-  ]
+  }
 }
