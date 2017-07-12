@@ -1,14 +1,16 @@
 # bsp_rotating_banner
 
-bsp_rotating_banner is a D8 module that generates a simple Paragraph type and
-a view. We can add the Rotating Banner field to a content type and add the
-Node Rotating Banner block to a region. When we access the node page we can see
-the Rotating Banner with the content from the Paragraph.
+bsp_rotating_banner is a D8 module that generates a simple Paragraph type,
+a view and the Rotating Banner field. We can add the Rotating Banner field to a
+content type and add the Node Rotating Banner block to a region. When we access
+the node page we can see the Rotating Banner with the content from the
+Paragraph.
 
 ___
 
 We can install this module using Composer. Before using composer we need to add
- the BluesparkLabs and woothemes/flexslider repositories to composer.json
+the BluesparkLabs/bsp_rotating_banner and woothemes/flexslider repositories to
+composer.json
 
         {
             "type": "vcs",
@@ -36,7 +38,7 @@ Before installing we need to verify that we have "libraries" in our installer
         }
 
  We only need to run "composer require bluesparklabs/bsp_rotating_banner" and
- all the dependencies will be installed. Then from CLI we can run
+ all dependencies will be downloaded. Then from CLI we can run
  "drush en bsp_rotating_banner" to activate the module.
 
  We need to add the Rotating Banner field to a content type and then create
