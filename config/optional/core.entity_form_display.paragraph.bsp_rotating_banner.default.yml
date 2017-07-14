@@ -9,6 +9,9 @@ dependencies:
     - paragraphs.paragraphs_type.bsp_rotating_banner
   module:
     - image
+    - text
+_core:
+  default_config_hash: d1QrHrWYMMdExlctyNzTRK731wyZTSt4eoJeHfhMeR0
 id: paragraph.bsp_rotating_banner.default
 targetEntityType: paragraph
 bundle: bsp_rotating_banner
@@ -20,7 +23,7 @@ content:
       rows: 5
       placeholder: ''
     third_party_settings: {  }
-    type: string_textarea
+    type: text_textarea
     region: content
   field_banner_image:
     weight: 0

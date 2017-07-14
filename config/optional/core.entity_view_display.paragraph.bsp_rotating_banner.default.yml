@@ -1,4 +1,3 @@
-uuid: 3b18a648-92ad-4525-8cd7-68de58388cf2
 langcode: en
 status: true
 dependencies:
@@ -10,6 +9,7 @@ dependencies:
     - paragraphs.paragraphs_type.bsp_rotating_banner
   module:
     - image
+    - text
 _core:
   default_config_hash: 3a9eabEiDqJN2Ev0o16oI0EZIP9W-Z27jsIL-6yJRUg
 id: paragraph.bsp_rotating_banner.default
@@ -22,7 +22,7 @@ content:
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    type: basic_string
+    type: text_default
     region: content
   field_banner_image:
     weight: 0
