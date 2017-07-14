@@ -37,9 +37,10 @@ Before installing we need to verify that we have "libraries" in our installer
             "web/libraries/{$name}": ["type:drupal-library"]
         }
 
- We only need to run "composer require bluesparklabs/bsp_rotating_banner" and
+
+We only need to run `composer require bluesparklabs/bsp_rotating_banner` and
  all dependencies will be downloaded. Then from CLI we can run
- "drush en bsp_rotating_banner" to activate the module.
+ `drush en bsp_rotating_banner` to activate the module.
 
  We need to add the Rotating Banner field to a content type and then create
  content. We can add the rotating banner block from "/admin/structure/block".
