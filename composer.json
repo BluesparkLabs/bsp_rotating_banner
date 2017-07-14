@@ -1,5 +1,5 @@
 {
-  "name": "bluesparklabs/bsp_rotating_banner",
+  "name": "BluesparkLabs/bsp_rotating_banner",
   "description": "BSP module to generate a basic rotating banner.",
   "type": "drupal-module",
   "license": "GPL-2.0+",
