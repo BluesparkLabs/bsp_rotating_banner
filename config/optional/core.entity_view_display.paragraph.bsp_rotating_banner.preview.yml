@@ -1,0 +1,45 @@
+uuid: 42d640d5-2998-4c34-bdea-9ec807e56637
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.preview
+    - field.field.paragraph.bsp_rotating_banner.field_banner_body
+    - field.field.paragraph.bsp_rotating_banner.field_banner_image
+    - field.field.paragraph.bsp_rotating_banner.field_banner_title
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.bsp_rotating_banner
+  module:
+    - image
+_core:
+  default_config_hash: 3a9eabEiDqJN2Ev0o16oI0EZIP9W-Z27jsIL-6yJRUg
+id: paragraph.bsp_rotating_banner.preview
+targetEntityType: paragraph
+bundle: bsp_rotating_banner
+mode: preview
+content:
+  field_banner_body:
+    weight: 2
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_banner_image:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: thumbnail
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_banner_title:
+    weight: 1
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden: {  }
